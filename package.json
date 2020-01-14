@@ -4,17 +4,21 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "tsnd src/index.ts"
   },
   "devDependencies": {
+    "concurrently": "^5.0.2",
     "nodemon": "^2.0.2",
     "ts-node": "^8.5.4",
+    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.4"
   },
   "dependencies": {
+    "@despair/discord": "^1.0.2",
     "@types/node": "^13.1.1",
     "discord.js": "^11.5.1",
     "dotenv": "^8.2.0",
+    "flatted": "^2.0.1",
     "reflect-metadata": "^0.1.13",
     "sqlite3": "^4.1.1",
     "typeorm": "^0.2.22"
